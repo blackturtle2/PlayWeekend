@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Kingfisher (4.1.0)
+  - SwiftyJSON (3.1.4)
+  - SWXMLHash (4.0.0)
+  - Toaster (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Kingfisher (~> 4.0)
+  - SwiftyJSON
+  - SWXMLHash (~> 4.0.0)
+  - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Kingfisher: f14df8cbe576bf55f211fa589e9869bceb4ea87d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
+  Toaster: 8c3225dc465bef4aa57e147a288724576df8e439
+
+PODFILE CHECKSUM: 20e4768aacf844dc60c2e3ad0ef6359c427ca46c
+
+COCOAPODS: 1.3.1

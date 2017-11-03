@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87325840EF7623462A9B1E80 /* Pods_PlayWeekendProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE55B52491FF52B9EE203E /* Pods_PlayWeekendProject.framework */; };
+		FE0571A51FAB1AE200DB76A8 /* MainTourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0571A41FAB1AE200DB76A8 /* MainTourInfoTableViewCell.swift */; };
+		FE0571A71FAB5FC400DB76A8 /* TourInfoDeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0571A61FAB5FC400DB76A8 /* TourInfoDeatilViewController.swift */; };
+		FE240A121FA8D1CE001BFA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE240A111FA8D1CE001BFA6F /* AppDelegate.swift */; };
+		FE240A141FA8D1CE001BFA6F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE240A131FA8D1CE001BFA6F /* MainViewController.swift */; };
+		FE240A171FA8D1CE001BFA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE240A151FA8D1CE001BFA6F /* Main.storyboard */; };
+		FE240A191FA8D1CE001BFA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE240A181FA8D1CE001BFA6F /* Assets.xcassets */; };
+		FE240A1C1FA8D1CE001BFA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE240A1A1FA8D1CE001BFA6F /* LaunchScreen.storyboard */; };
+		FE240A241FA8D384001BFA6F /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE240A231FA8D384001BFA6F /* DataCenter.swift */; };
+		FE240A261FA8EFA4001BFA6F /* JSsecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE240A251FA8EFA4001BFA6F /* JSsecretKey.swift */; };
+		FE6C16A81FAA85910064DEFD /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6C16A71FAA85910064DEFD /* SearchLocationViewController.swift */; };
+		FE98C1AB1FAAA20F00DCC4F5 /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE98C1AA1FAAA20F00DCC4F5 /* City.plist */; };
+		FE98C1AD1FAAAAB700DCC4F5 /* SearchLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98C1AC1FAAAAB700DCC4F5 /* SearchLocationTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D73131521016B064B3D1EA9 /* Pods-PlayWeekendProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWeekendProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWeekendProject/Pods-PlayWeekendProject.debug.xcconfig"; sourceTree = "<group>"; };
+		565FB0733B1CC79AB9A136B3 /* Pods-PlayWeekendProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWeekendProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWeekendProject/Pods-PlayWeekendProject.release.xcconfig"; sourceTree = "<group>"; };
+		B2CE55B52491FF52B9EE203E /* Pods_PlayWeekendProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayWeekendProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0571A41FAB1AE200DB76A8 /* MainTourInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTourInfoTableViewCell.swift; sourceTree = "<group>"; };
+		FE0571A61FAB5FC400DB76A8 /* TourInfoDeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourInfoDeatilViewController.swift; sourceTree = "<group>"; };
+		FE240A0E1FA8D1CE001BFA6F /* PlayWeekendProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWeekendProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE240A111FA8D1CE001BFA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE240A131FA8D1CE001BFA6F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE240A161FA8D1CE001BFA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE240A181FA8D1CE001BFA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE240A1B1FA8D1CE001BFA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE240A1D1FA8D1CE001BFA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE240A231FA8D384001BFA6F /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		FE240A251FA8EFA4001BFA6F /* JSsecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSsecretKey.swift; sourceTree = "<group>"; };
+		FE6C16A71FAA85910064DEFD /* SearchLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationViewController.swift; sourceTree = "<group>"; };
+		FE98C1AA1FAAA20F00DCC4F5 /* City.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		FE98C1AC1FAAAAB700DCC4F5 /* SearchLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE240A0B1FA8D1CE001BFA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87325840EF7623462A9B1E80 /* Pods_PlayWeekendProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CDA74DC488899947E8D4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D73131521016B064B3D1EA9 /* Pods-PlayWeekendProject.debug.xcconfig */,
+				565FB0733B1CC79AB9A136B3 /* Pods-PlayWeekendProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81E433B00061FCDC23F236EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE55B52491FF52B9EE203E /* Pods_PlayWeekendProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE240A051FA8D1CE001BFA6F = {
+			isa = PBXGroup;
+			children = (
+				FE240A101FA8D1CE001BFA6F /* PlayWeekendProject */,
+				FE240A0F1FA8D1CE001BFA6F /* Products */,
+				30CDA74DC488899947E8D4CA /* Pods */,
+				81E433B00061FCDC23F236EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE240A0F1FA8D1CE001BFA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE240A0E1FA8D1CE001BFA6F /* PlayWeekendProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE240A101FA8D1CE001BFA6F /* PlayWeekendProject */ = {
+			isa = PBXGroup;
+			children = (
+				FE240A1A1FA8D1CE001BFA6F /* LaunchScreen.storyboard */,
+				FE240A151FA8D1CE001BFA6F /* Main.storyboard */,
+				FE240A181FA8D1CE001BFA6F /* Assets.xcassets */,
+				FE240A251FA8EFA4001BFA6F /* JSsecretKey.swift */,
+				FE240A231FA8D384001BFA6F /* DataCenter.swift */,
+				FE240A111FA8D1CE001BFA6F /* AppDelegate.swift */,
+				FE240A131FA8D1CE001BFA6F /* MainViewController.swift */,
+				FE0571A41FAB1AE200DB76A8 /* MainTourInfoTableViewCell.swift */,
+				FE6C16A71FAA85910064DEFD /* SearchLocationViewController.swift */,
+				FE98C1AC1FAAAAB700DCC4F5 /* SearchLocationTableViewCell.swift */,
+				FE0571A61FAB5FC400DB76A8 /* TourInfoDeatilViewController.swift */,
+				FE240A1D1FA8D1CE001BFA6F /* Info.plist */,
+				FE98C1AA1FAAA20F00DCC4F5 /* City.plist */,
+			);
+			path = PlayWeekendProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE240A0D1FA8D1CE001BFA6F /* PlayWeekendProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE240A201FA8D1CE001BFA6F /* Build configuration list for PBXNativeTarget "PlayWeekendProject" */;
+			buildPhases = (
+				49EEB1CAE2B72BE759DE33D5 /* [CP] Check Pods Manifest.lock */,
+				FE240A0A1FA8D1CE001BFA6F /* Sources */,
+				FE240A0B1FA8D1CE001BFA6F /* Frameworks */,
+				FE240A0C1FA8D1CE001BFA6F /* Resources */,
+				7F53DD8ABC18545DCBC45DE2 /* [CP] Embed Pods Frameworks */,
+				FB7D8EEA3F819F14B3C3DA5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWeekendProject;
+			productName = PlayWeekendProject;
+			productReference = FE240A0E1FA8D1CE001BFA6F /* PlayWeekendProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE240A061FA8D1CE001BFA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = leejaesung;
+				TargetAttributes = {
+					FE240A0D1FA8D1CE001BFA6F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE240A091FA8D1CE001BFA6F /* Build configuration list for PBXProject "PlayWeekendProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE240A051FA8D1CE001BFA6F;
+			productRefGroup = FE240A0F1FA8D1CE001BFA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE240A0D1FA8D1CE001BFA6F /* PlayWeekendProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE240A0C1FA8D1CE001BFA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE240A1C1FA8D1CE001BFA6F /* LaunchScreen.storyboard in Resources */,
+				FE240A191FA8D1CE001BFA6F /* Assets.xcassets in Resources */,
+				FE98C1AB1FAAA20F00DCC4F5 /* City.plist in Resources */,
+				FE240A171FA8D1CE001BFA6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49EEB1CAE2B72BE759DE33D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayWeekendProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F53DD8ABC18545DCBC45DE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlayWeekendProject/Pods-PlayWeekendProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWeekendProject/Pods-PlayWeekendProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7D8EEA3F819F14B3C3DA5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWeekendProject/Pods-PlayWeekendProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE240A0A1FA8D1CE001BFA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE240A241FA8D384001BFA6F /* DataCenter.swift in Sources */,
+				FE0571A71FAB5FC400DB76A8 /* TourInfoDeatilViewController.swift in Sources */,
+				FE240A141FA8D1CE001BFA6F /* MainViewController.swift in Sources */,
+				FE6C16A81FAA85910064DEFD /* SearchLocationViewController.swift in Sources */,
+				FE0571A51FAB1AE200DB76A8 /* MainTourInfoTableViewCell.swift in Sources */,
+				FE240A121FA8D1CE001BFA6F /* AppDelegate.swift in Sources */,
+				FE98C1AD1FAAAAB700DCC4F5 /* SearchLocationTableViewCell.swift in Sources */,
+				FE240A261FA8EFA4001BFA6F /* JSsecretKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE240A151FA8D1CE001BFA6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE240A161FA8D1CE001BFA6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE240A1A1FA8D1CE001BFA6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE240A1B1FA8D1CE001BFA6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE240A1E1FA8D1CE001BFA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE240A1F1FA8D1CE001BFA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE240A211FA8D1CE001BFA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D73131521016B064B3D1EA9 /* Pods-PlayWeekendProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29Q45PKR77;
+				INFOPLIST_FILE = PlayWeekendProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackturtle2.PlayWeekendProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE240A221FA8D1CE001BFA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565FB0733B1CC79AB9A136B3 /* Pods-PlayWeekendProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29Q45PKR77;
+				INFOPLIST_FILE = PlayWeekendProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackturtle2.PlayWeekendProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE240A091FA8D1CE001BFA6F /* Build configuration list for PBXProject "PlayWeekendProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE240A1E1FA8D1CE001BFA6F /* Debug */,
+				FE240A1F1FA8D1CE001BFA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE240A201FA8D1CE001BFA6F /* Build configuration list for PBXNativeTarget "PlayWeekendProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE240A211FA8D1CE001BFA6F /* Debug */,
+				FE240A221FA8D1CE001BFA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE240A061FA8D1CE001BFA6F /* Project object */;
+}
