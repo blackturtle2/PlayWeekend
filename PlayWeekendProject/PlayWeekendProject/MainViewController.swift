@@ -66,6 +66,9 @@ class MainViewController: UIViewController {
         
         // UI: 테이블헤더 뷰의 높이 조정 ( 아래 테이블 뷰 row들이 의도적으로 보이게 하려는 목적(기종마다 다르게) )
         self.constraintHeaderImageViewHeight.constant = self.view.frame.height - 100
+        if self.view.frame.height <= 568.0 { // iPhone 4s & iPad에서 iPhone 앱을 작동시키는 케이스 해상도 대응입니다.
+            self.constraintHeaderImageViewHeight.constant = self.view.frame.height // - 100
+        }
         
         // UI: 테이블헤더 뷰 높이 리사이즈
         self.resizeTableHeaderViewHeightOf(myTableView: self.tableViewMain)
